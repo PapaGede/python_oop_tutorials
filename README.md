@@ -1,4 +1,4 @@
-# PYTHON OOP WITH NANA QHOUAMY
+# PYTHON OOP
 
 1. Inheritance
 
@@ -10,8 +10,6 @@
 
 1. Classes are representations of objects.
 
-Hello Kay
-I can hear you loud and clear.
 
 HumanBeigns:
 
