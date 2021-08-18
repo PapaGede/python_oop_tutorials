@@ -23,15 +23,15 @@ HumanBeigns:
 
     * Males:
 
-        * Male Genitals
+        * Adams Apple
 
         * Broad Chest
 
     * Females:
 
-        * Big breasts
+        * Long hair
 
-        * Female Genitals
+        * Earrings
 
 ## Encapsulation
 * Walk
