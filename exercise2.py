@@ -50,4 +50,10 @@ print (trotro , "\n")
 
 print(trotro.seating_capacity() , "\n")
 
-print (trotro.fare())
+print (trotro.fare(), "\n")
+
+# To check the type of object
+print ("This class is of type: ", type(trotro) , "\n")
+
+# Checks to see if it is an instance of the actual class
+print (isinstance(trotro, Vehicle))
