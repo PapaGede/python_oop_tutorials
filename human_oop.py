@@ -1,32 +1,34 @@
 class HumanBeing():
-    def __init__(self,name,race, tall = True):
+    def __init__(self, name, race):
         self.name = name
         self.race = race
-        self.tall = tall
-        self.sexy = True
-        
 
     def __repr__(self):
-        return f"{self.name} is sexy: {self.sexy}"
+        return f"{self.name}"
 
-    def blink(self, action):
-        print(f"To {action}:")
-        print("Close your eyes.")
-        print("Open them")
+    def walk (self,action):
+        print (f"One step {action}")
 
-    def attract(self):
-        self.blink("attract")
+    def perform (self):
+        self.walk("twice")
 
+# Inheritance
+class Boy(HumanBeing):
+    pass
+    # def __repr__(self):
+    #     return f"{self.name}"
 
 def main():
-    person1 = HumanBeing("David","blue")
-    print(person1)
-    person1.blink("blink")
-    person1.attract()
+    person = HumanBeing("Nana","blackie")
+    print(person)
+    person.walk("backward")
+    person.perform()
+    person2 = Boy("Adrian", "White")
+    print(person2)
+    person2.walk("forward")
+    print (isinstance(person2, HumanBeing))
 
 
-
-# The code to be run
 if __name__ == "__main__":
-    print("I'm about to run the code\n")
+    print("About to run the code \n")
     main()
